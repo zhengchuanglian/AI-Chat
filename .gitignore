@@ -1,0 +1,7 @@
+﻿.idea/
+*.log
+hs_err_pid*.log
+replay_pid*.log
+spring-ai/target/
+springAi_frontend/node_modules/
+springAi_frontend/dist/
