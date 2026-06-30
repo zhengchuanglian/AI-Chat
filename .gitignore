@@ -1,7 +1,24 @@
 ﻿.idea/
+.vscode/
+*.iml
 *.log
 hs_err_pid*.log
 replay_pid*.log
+
+# secret configs
+spring-ai/src/main/resources/application.yaml
+spring-ai/src/main/resources/application-dev.yaml
+spring-ai/src/main/resources/application-prod.yaml
+springAi_frontend/.env
+
+# private/runtime files
+*.pdf
+spring-ai/chat-pdf.properties
+spring-ai/chat-pdf.json
+
+# build outputs
 spring-ai/target/
-springAi_frontend/node_modules/
 springAi_frontend/dist/
+
+# dependencies
+springAi_frontend/node_modules/
